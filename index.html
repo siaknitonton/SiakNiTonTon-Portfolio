@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Carreon - Portfolio</title>
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--
+    - #MAIN
+  -->
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/my-avatar.png" alt="Anthony Carreon" width="80">
+          </figure>
+          <div class="info-content">
+            <h1 class="name" title="Anthony Carreon">Anthony Carreon</h1>
+            <p class="title">Software Engr / Sr. BI Developer</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:siaknitonton@gmail.com" class="contact-link">siaknitonton
+                </a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+12133522795" class="contact-link">+63 915 939 4927</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="1996-09-01">August 1, 1996</time>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Ballay, Bauang La Union Philippines 2511</address>
+              </div>
+            </li>
+          </ul>
+          <div class="separator"></div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!--
+      - #main-content
+    -->
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+            
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+            
+            
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+        <!--
+        - #ABOUT
+      -->
+        <article class="about  active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+          <section class="about-text">
+            <p> Hey! I’m Anthony—most folks call me Tonying or just Tony. I’m into all things tech and love finding simple solutions to complicated problems. I enjoy working with teams, learning new things, and keeping the mood light with a little sarcasm and humor along the way.<br> <br>
+               If you’re looking for someone who’s genuinely curious, always up for a challenge, and believes work should be both productive and enjoyable, you’ve come to the right place. Feel free to interview me—just be ready for a laugh or two! 
+            </p>
+          </section>
+          
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="service-list">
+
+              <li class="service-item">
+                
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Engineering</h4>
+                  <p class="service-item-text">I wrangle big data, build pipelines, and keep everything flowing so you always get the insights you need.</p>
+                </div>
+              </li>
+
+               <li class="service-item">
+                
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Visualization</h4>
+                  <p class="service-item-text">Turning your data and reports into clear, attractive charts that tell the story at a glance.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Software Development</h4>
+                  <p class="service-item-text">Creating custom apps and tools that solve your everyday problems—no tech jargon included.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Custom Automation</h4>
+                  <p class="service-item-text">Automating boring tasks so you can focus on what you actually enjoy.</p>
+                </div>
+              </li>
+
+
+              <li class="service-item">
+                
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Local & Forex Trading</h4>
+                  <p class="service-item-text">Sharing tips and know-how for trading locally and on the global forex market.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Simple Training Guides</h4>
+                  <p class="service-item-text">Making new tools easy to learn with straightforward, no-stress guides.</p>
+                </div>
+              </li>
+
+
+              <li class="service-item">
+                
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+                  <p class="service-item-text">Building websites that look great and work exactly how you want them to.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Tech Support & IT Solutions</h4>
+                  <p class="service-item-text">From networks to laptops and everything in between, I help keep your tech in top shape.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Tech Troubleshooting</h4>
+                  <p class="service-item-text">Got tech troubles? I jump in and fix the issues, and get things running without the hassle.</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <!--
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p> Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia. </p>
+                  </div>
+                </div>
+              </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p> Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia. </p>
+                  </div>
+                </div>
+              </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p> Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia. </p>
+                  </div>
+                </div>
+              </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p> Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia. </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        -->
+          
+          
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                </figure>
+                <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              </div>
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                <time datetime="2021-06-14">14 June, 2021</time>
+                <div data-modal-text>
+                  <p> Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia. </p>
+                </div>
+              </div>
+            </section>
+          </div>
+          
+        
+        
+        </article>
+        <!--
+        - #RESUME
+      -->
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Education</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Bachelor of Science in Information Technology </h4>
+                <span>2013 - 2017</span>
+                <p class="timeline-text"> Don Mariano Marcos Memorial State University Mid-La Union Campus (DMMMSU - MLUC) </p>
+                <p class="timeline-text"> City of San Fernando La Union, Philippines </p>
+              </li>
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Sr. Business Intelligence Developer</h4>
+                <span>Blackhawk Industrial (Baguio, Philippines)</span>
+                <p class="timeline-text"> Enhanced a legacy system by integrating a Power Automate workflow and SharePoint list to improve efficiency and data accessibility, fine-tuned SQL queries and optimized existing SSIS and SSRS components, significantly reducing data ingestion time by 80%—from an average of three to four hours down to just 50 minutes to 1.5 hours. </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Sr. Business Intelligence Developer</h4>
+                <span>Shakey’s Pizza Asia Ventures Inc. (Paranaque, Philippines)</span>
+                <p class="timeline-text"> Led strategic enhancements to the data source warehouse, resulting in a 40% improvement in the quality and reliability of Tableau reports; implemented robust security and permission controls to safeguard data access, and demonstrated cross-functional leadership in establishing data governance standards, strengthening data integrity, and fostering a culture of responsible data management. </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Jr. Software Engineer / Software Engineer (Business Intelligence Developer) – (Deployed in Shakey’s)</h4>
+                <span>Yondu Inc. (Taguig, Philippines)</span>
+                <p class="timeline-text"> Fine-tuned complex queries in Google BigQuery using advanced SQL and optimization techniques, applied best practices in data modeling to ensure normalization and improve data integrity, and developed dynamic, user-friendly reports to enable efficient data access and support data-driven decision-making. </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Business Intelligence Developer / Supervisor I</h4>
+                <span>Universal Leaf Philippines Inc. (La Union, Philippines)</span>
+                <p class="timeline-text"> Led the initial implementation of Business Intelligence development using Power BI Service, applying best practices in data extraction, transformation, and data warehouse management to streamline data processing and enhance data-driven decision-making through improved analysis and reporting. </p>
+                
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Programmer</h4>
+                <span>Tarlac City Water District & PrimeWater Infrastructure Corp. (Mandaluyong, Philippines)</span>
+                <p class="timeline-text"> Modernized the collection and billing system by migrating from an outdated to a modern programming language, and optimized transaction ledger queries, resulting in a 70% increase in data retrieval speed and significantly improved operational efficiency; additionally, developed a web application for managing laboratory results and appointment scheduling, enhancing service accessibility and workflow automation. </p>
+                </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Jr. Programmer</h4>
+                <span>JVP BreadKing Food Corp. (Tarlac, Philippines)</span>
+                <p class="timeline-text"> Independently developed an employee self-service web platform, enhanced the timekeeping system—achieving a 70% improvement in tracking accuracy—and optimized the ordering system through algorithm enhancements and process streamlining, resulting in a 40% improvement in performance and a 30% increase in operational efficiency.</p>
+              </li>
+            </ol>
+          </section>
+          
+        </article>
+        <!--
+        - #PORTFOLIO
+      -->
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Tableau Report</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Power BI</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>Select category</div>
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Tableau Report</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Power BI</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+            <ul class="project-list">
+              <li class="project-item  active" data-filter-item data-category="tableau report">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/1.PNG" alt="Tableau Reports" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Daily Sales Report</h3>
+                  <p class="project-category">Tableau Report</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="tableau report">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/2.PNG" alt="Promo Report" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Promo Report</h3>
+                  <p class="project-category">Tableau Report</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="tableau report">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/3.PNG" alt="Store Dashboard Monitoring" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Store Dashboard Monitoring</h3>
+                  <p class="project-category">Tableau Report</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="tableau report">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/4.PNG" alt="Average Daily Sales Recovery Report" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Average Daily Sales Recovery Report</h3>
+                  <p class="project-category">Tableau Report</p>
+                </a>
+              </li>
+
+
+              <li class="project-item  active" data-filter-item data-category="power bi">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/pbi-1.PNG" alt="Network Uptime Monitoring" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Network Uptime Monitoring</h3>
+                  <p class="project-category">Power BI Report</p>
+                </a>
+              </li>
+               <li class="project-item  active" data-filter-item data-category="power bi">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/pbi-2.PNG" alt="Item Rationalization" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Item Rationalization</h3>
+                  <p class="project-category">Power BI Report</p>
+                </a>
+              </li>
+               <li class="project-item  active" data-filter-item data-category="power bi">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/pbi-3.PNG" alt="OS Ticket Monitoring Dashboard" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">OS Ticket Monitoring Dashboard</h3>
+                  <p class="project-category">Power BI Report</p>
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="power bi">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/pbi-4.PNG" alt="Service Now VSOT Request Dashboard" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Service Now VSOT Request Dashboard</h3>
+                  <p class="project-category">Power BI Report</p>
+                </a>
+              </li>
+
+
+              
+                
+            </ul>
+          </section>
+        </article>
+        <!--
+        - #BLOG
+      -->
+        
+        <!--
+        - #CONTACT
+      -->
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJYzKFvX2akTMR7kJMbF-NBrk&key=AIzaSyBYIC2EKyjqBswyI8TtapRFvut7FleS_wE" width="400" height="300" loading="lazy"></iframe>
+            </figure>
+          </section>
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              </div>
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
