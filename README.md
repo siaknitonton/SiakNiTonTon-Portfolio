@@ -73,9 +73,8 @@ Feel free to browse around, check out my work, and get inspired!
 
 Have questions or want to connect? Reach out:
 
-- Email: your.email@example.com  
-- LinkedIn: [Your LinkedIn Profile]  
-- Twitter: @yourhandle  
+- Email: siaknitonton@gmail.com  
+
 
 ---
 
